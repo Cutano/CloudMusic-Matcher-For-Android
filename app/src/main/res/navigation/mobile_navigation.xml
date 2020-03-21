@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.hongbojiang.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_matchResultFragment"
+            app:destination="@id/fragment_match_result"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_open_exit"
+            app:popEnterAnim="@anim/fragment_open_enter"
+            app:popExitAnim="@anim/fragment_open_exit"
+            app:popUpTo="@+id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.hongbojiang.ui.search.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="com.hongbojiang.ui.favorites.FavoritesFragment"
+        android:label="@string/menu_favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/nav_inspect"
+        android:name="com.hongbojiang.ui.inspect.InspectFragment"
+        android:label="@string/menu_inspect"
+        tools:layout="@layout/fragment_inspect" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.hongbojiang.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.hongbojiang.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/fragment_match_result"
+        android:name="com.hongbojiang.ui.matchResult.MatchResultFragment"
+        android:label="@string/fragment_match_result_label"
+        tools:layout="@layout/fragment_match_result" />
+</navigation>

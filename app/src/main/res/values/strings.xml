@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">CloudMusicMatcher</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CloudMusicMatcher</string>
+    <string name="nav_header_subtitle" translatable="false">By ASSASS1N</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Matcher</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_inspect">Inspect</string>
+    <string name="menu_about">About</string>
+    <string name="menu_send">Send</string>
+    <string name="paste">paste</string>
+    <string name="id_input_hint_1">Please input the first ID</string>
+    <string name="id_input_hint_2">Please input the second ID</string>
+    <string name="match_button_text">Match</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="play_icon_des">Play</string>
+    <string name="fragment_match_result_label">Match Reult</string>
+    <string name="help_text">Hint:</string>
+    <string name="help_text_content">Playlist ID is the number that after \"playlist?id=\", which can be found in Netease Cloud Music playlist share link\nAfter you copy the link, you can simply click the "paste" button to fill the ID automatically</string>
+    <string name="others">Others</string>
+    <string name="add_playlist_popup_ok_btn">OK</string>
+    <string name="add_playlist_popup_cancel_btn">CANCEL</string>
+    <string name="add_playlist_popup_name_hint">Playlist Name</string>
+    <string name="add_playlist_popup_paste_btn">PASTE</string>
+    <string name="add_playlist_popup_id_hint">Playlist ID</string>
+    <string name="edit_playlist_popup_del_btn">DELETE</string>
+    <string name="search_hint">Playlist ID</string>
+    <string name="about_title">CloudMusicMatcher</string>
+    <string name="about_version" translatable="false">V3.0</string>
+    <string name="about_support_tag">Support Author</string>
+    <string name="about_ali">Ali Pay</string>
+    <string name="about_wechat">Wechat Pay</string>
+    <string name="about_contect_tag">Contect Author</string>
+    <string name="about_QQ">QQ Account</string>
+    <string name="about_qq_account" translatable="false">894683184</string>
+    <string name="about_email">Email Address</string>
+    <string name="about_email_address" translatable="false">1909030214@s.upc.edu.cn</string>
+    <string name="about_coolapk">Coolapk User Link</string>
+    <string name="about_coolapk_link" translatable="false">http://www.coolapk.com/u/782292</string>
+</resources>

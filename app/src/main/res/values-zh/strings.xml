@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">网易云音乐歌单匹配器</string>
+    <string name="action_settings">设置</string>
+    <string name="id_input_hint_1">第一个歌单ID</string>
+    <string name="id_input_hint_2">第二个歌单ID</string>
+    <string name="match_button_text">匹配</string>
+    <string name="menu_search">查询歌单</string>
+    <string name="menu_home">歌单匹配</string>
+    <string name="menu_send">发送</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_favorites">收藏夹</string>
+    <string name="menu_inspect">用户歌单</string>
+    <string name="nav_header_desc">导航栏标题</string>
+    <string name="nav_header_title">网易云音乐歌单匹配器</string>
+    <string name="navigation_drawer_close">关闭导航栏</string>
+    <string name="navigation_drawer_open">打开导航栏</string>
+    <string name="paste">粘贴</string>
+    <string name="play_icon_des">播放</string>
+    <string name="fragment_match_result_label">匹配结果</string>
+    <string name="help_text">提示：</string>
+    <string name="help_text_content">歌单ID是网易云音乐歌单分享链接中以playlist?id=开头的一串纯数字 您可以在复制链接后点击”粘贴“按钮来快速填充歌单ID</string>
+    <string name="others">其他</string>
+    <string name="add_playlist_popup_cancel_btn">取消</string>
+    <string name="add_playlist_popup_ok_btn">确定</string>
+    <string name="add_playlist_popup_id_hint">歌单ID</string>
+    <string name="add_playlist_popup_name_hint">歌单名称</string>
+    <string name="add_playlist_popup_paste_btn">粘贴</string>
+    <string name="edit_playlist_popup_del_btn">删除</string>
+    <string name="search_hint">歌单ID</string>
+    <string name="about_title">网易云音乐歌单匹配器</string>
+    <string name="about_support_tag">支持作者</string>
+    <string name="about_ali">支付宝</string>
+    <string name="about_contect_tag">联系作者</string>
+    <string name="about_wechat">微信支付</string>
+    <string name="about_QQ">QQ号（请注明好友申请原因）</string>
+    <string name="about_email">电子邮件</string>
+    <string name="about_coolapk">酷安基佬链</string>
+</resources>
